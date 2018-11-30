@@ -15,21 +15,31 @@ body {
 
 .banner {
   background-color: #2b3851;
+  padding-top: 50px;
 }
 
 .robot {
   width: 320px;
+  margin: 0 auto;
 }
 
 .robot-body {
   width: 320px;
+  position: relative;
+  display: block;
 }
 
 .robot-brain {
   width: 46px;
+  position: absolute;
+  top: 50px;
+  right: 48.1%;
 }
 
 .robot-head-right,
 .robot-head-left {
   width: 125px;
+  position: absolute;
+  padding-top: 10px;
+  top: 1px;
 }
